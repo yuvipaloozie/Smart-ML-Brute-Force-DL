@@ -7,7 +7,7 @@
 ![Domain](https://img.shields.io/badge/Domain-Biomedical_Engineering-red)
 
 ## Summary
-This project challenges the industry trend of relying solely on Deep Learning for biological signal processing. It benchmarks a 1D-Convolutional Neural Network (CNN) against a lightweight Logistic Regression classifier that utilizes domain-specific feature engineering (Non-Linear Dynamics and Chaos Theory).
+This project challenges the industry trend of relying solely on deep learning for biological signal processing. It benchmarks a 1D-Convolutional Neural Network (CNN) against a lightweight Logistic Regression classifier that utilizes domain-specific feature engineering (Non-Linear Dynamics and Chaos Theory). 
 
 **Hypothesis:** A model grounded in physiological principles can achieve comparable diagnostic performance to a "black box" neural network while offering superior interpretability and magntitudes of reduction in training time. 
 
@@ -77,6 +77,7 @@ The project is contained within a single reproducible notebook (`arrythmiaml.ipy
     * `visualize_interpretability`: Compares CNN Saliency Maps vs. Engineering Feature Space.
 
 ## Results and Evaluations
+The comparative performance was measured in two different tests: a simple binary test and a more challenging multiclass test. 
 The study resulted in a comparison between the two approaches across 5 classes (Normal, LBBB, RBBB, PVC, APC).
 
 | Metric | Engineering Model (Logistic Reg) | Deep Learning (1D-CNN) | Winner |
